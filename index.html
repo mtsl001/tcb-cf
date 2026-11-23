@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Convex Brief — Forensic Research &amp; Interactive Intelligence Deck</title>
+  <meta name="description" content="First-principles forensic research on India–China industrial strategy, EV supply chains, and capital allocation." />
+
+  <!-- OpenGraph & Twitter Card Metadata for LinkedIn, X, Facebook & WhatsApp -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="The Convex Brief" />
+  <meta property="og:title" content="Issue #01: Is India Repeating Its Smartphone Mistake with EVs? &amp; The Gigafactory Trap" />
+  <meta property="og:description" content="Swipe the 15-slide interactive deck + read the full forensic BOM audit: ₹1.45L cost penalty, LMFP voltage cliff, and 4 high-ROCE moats." />
+  <meta property="og:url" content="https://theconvexbrief.in/#issue-01" />
+  <meta property="og:image" content="https://theconvexbrief.in/assets/og-issue-01.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Convex Brief #01: India's EV Supply Chain &amp; The Gigafactory Trap" />
+  <meta name="twitter:description" content="40% of an Indian EV's BOM is still imported Chinese cells. Explore the 15-slide forensic breakdown." />
+  <meta name="twitter:image" content="https://theconvexbrief.in/assets/og-issue-01.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="C:\Users\Sarvesh.Prasad\OneDrive - Motherson Group\Documents\My Data Sources\webs\styles.css.css" />
+</head>
+<body>
+
+  <!-- GLOBAL STICKY HEADER -->
+  <header class="site-header">
+    <button class="site-brand" onclick="navigateTo('home')" aria-label="Go to The Convex Brief Dispatch Ledger">
+      <svg viewBox="0 0 30 18" aria-hidden="true">
+        <path d="M3 14 Q15 0 27 14" fill="none" stroke="#E5A93C" stroke-width="3.5" stroke-linecap="round" />
+      </svg>
+      <span>THE CONVEX BRIEF</span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary Navigation">
+      <button class="nav-tab active" id="navHome" onclick="navigateTo('home')">Dispatch Ledger</button>
+      <button class="nav-tab" id="navIssue01" onclick="navigateTo('issue01')">
+        <span class="live-dot" aria-hidden="true"></span>
+        Issue #01: EV Supply Chain
+      </button>
+      <button class="nav-cta" onclick="openShareModal('whatsapp')">Share Dispatch ↗</button>
+    </nav>
+  </header>
+
+  <!-- VIEW 1: HOMEPAGE ("THE DISPATCH LEDGER") -->
+  <main id="view-home" class="view-section active">
+    <div class="container">
+
+      <section class="masthead">
+        <div class="masthead-strip grid-surface">
+          <span>FORENSIC FINANCIALS • DEEP-TECH R&amp;D • INDIA–CHINA STRATEGY</span>
+          <span class="tag-pill">OBSIDIAN EDITION // ZERO NOISE</span>
+        </div>
+        <div class="masthead-body">
+          <h1 class="masthead-title">
+            First-Principles Research.<br />
+            <span class="accent">Zero Noise.</span>
+          </h1>
+          <p class="masthead-desc">
+            Every Convex Brief dispatch pairs a <strong>swipeable 9:16 visual intelligence deck</strong> with a full written forensic audit—engineered for operators, founders, and capital allocators reading on mobile or desktop.
+          </p>
+        </div>
+      </section>
+
+      <!-- Featured Issue #01 -->
+      <section class="featured-block" aria-label="Featured Dispatch">
+        <div class="featured-left">
+          <div>
+            <div class="meta-row">
+              <span class="badge-coral">ISSUE #01 • LIVE</span>
+              <span class="badge-outline">NOV 2026</span>
+              <span class="badge-sky">EV_VALUE_CHAIN</span>
+            </div>
+            <h2 class="featured-headline">
+              Is India Repeating Its Smartphone Mistake with EVs? &amp; The Gigafactory Trap
+            </h2>
+            <p class="featured-hook">
+              Every domestic EV launch triggers applause over panoramic sunroofs and curved OLED screens, while 40% of the vehicle’s Bill of Materials remains imported from Shenzhen and Ningde. In this two-part forensic audit, we break down the ₹1.45 Lakh per-car structural cost deficit, BYD’s Gen-2 LMFP voltage cliff, and why spending ₹4,000 Cr on turnkey Gen-1 cell fabs risks a 2028 depreciation trap.
+            </p>
+          </div>
+
+          <div class="stat-strip">
+            <div class="stat-cell">
+              <div class="stat-num brass">15 SLIDES</div>
+              <div class="stat-label">INTERACTIVE 9:16 DECK</div>
+            </div>
+            <div class="stat-cell">
+              <div class="stat-num coral">₹1.45 LAKH</div>
+              <div class="stat-label">60 kWh BOM PENALTY</div>
+            </div>
+            <div class="stat-cell">
+              <div class="stat-num">12 MIN READ</div>
+              <div class="stat-label">FORENSIC DEEP DIVE</div>
+            </div>
+          </div>
+
+          <div class="btn-row">
+            <button class="btn-primary" onclick="navigateTo('issue01')">Open Interactive Issue →</button>
+            <button class="btn-secondary" onclick="openShareModal('linkedin')">Share Dispatch</button>
+          </div>
+        </div>
+
+        <!-- Keyboard-accessible Preview Card (Slide 01 cloned dynamically by app.js) -->
+        <button class="featured-right grid-surface" onclick="navigateTo('issue01')" aria-label="Launch Issue 01 Interactive 15-Slide Deck">
+          <div class="slide-preview-shell">
+            <div class="slide-preview-scaler" id="featuredSlidePreview"></div>
+          </div>
+          <span class="preview-caption">CLICK TO LAUNCH 15-SLIDE DECK ↗</span>
+        </button>
+      </section>
+
+      <!-- Filterable Archive Ledger -->
+      <section class="ledger-section" aria-label="The Dispatch Ledger Archive">
+        <div class="ledger-header-bar">
+          <div class="ledger-section-title">/// THE DISPATCH LEDGER — ARCHIVE &amp; PIPELINE</div>
+          <div class="filter-pills" role="group" aria-label="Filter dispatches by category">
+            <button class="filter-pill active" onclick="filterArchive('all', this)">All</button>
+            <button class="filter-pill" onclick="filterArchive('supply-chain', this)">Supply Chain</button>
+            <button class="filter-pill" onclick="filterArchive('corporate-forensics', this)">Corporate Forensics</button>
+            <button class="filter-pill" onclick="filterArchive('deep-tech', this)">Deep Tech</button>
+          </div>
+        </div>
+
+        <div class="archive-list" id="archiveList">
+          <div class="archive-row live" data-category="supply-chain">
+            <div class="archive-cell">
+              <div class="issue-num">ISSUE #01</div>
+              <div class="issue-date">NOV 2026</div>
+            </div>
+            <div class="archive-cell">
+              <div class="archive-title">Is India Repeating Its Smartphone Mistake with EVs? (Parts I &amp; II)</div>
+              <div class="archive-sub">Forensic BOM breakdown, BYD Gen-2 LMFP voltage cliff, 20% gigafactory scrap economics, and 4 chemistry-agnostic capital moats.</div>
+            </div>
+            <div class="archive-cell">
+              <span class="tag-chip sky">EV_VALUE_CHAIN</span>
+              <div class="slides-meta">15 SLIDES • 2 PARTS</div>
+            </div>
+            <div class="archive-cell">
+              <button class="row-action-btn" onclick="navigateTo('issue01')">Read &amp; Swipe →</button>
+            </div>
+          </div>
+
+          <div class="archive-row upcoming" data-category="corporate-forensics">
+            <div class="archive-cell">
+              <div class="issue-num">ISSUE #02</div>
+              <div class="issue-date">DEC 2026</div>
+            </div>
+            <div class="archive-cell">
+              <div class="archive-title">Quick-Commerce Ad Economics: Blinkit, Zepto &amp; The ₹5,000 Cr High-Margin Engine</div>
+              <div class="archive-sub">Deconstructing dark-store unit economics, FMCG trade-spend cannibalization, and why retail media margins subsidize 10-minute delivery.</div>
+            </div>
+            <div class="archive-cell">
+              <span class="tag-chip">CORPORATE_FORENSICS</span>
+              <div class="slides-meta">12 SLIDES • PLANNED</div>
+            </div>
+            <div class="archive-cell">
+              <span class="status-badge">IN RESEARCH</span>
+            </div>
+          </div>
+
+          <div class="archive-row upcoming" data-category="deep-tech">
+            <div class="archive-cell">
+              <div class="issue-num">ISSUE #03</div>
+              <div class="issue-date">JAN 2027</div>
+            </div>
+            <div class="archive-cell">
+              <div class="archive-title">India's Solar Wafer &amp; Polysilicon Localization Audit: Where CAPEX Meets Yield</div>
+              <div class="archive-sub">Examining ALMM mandates, N-type TOPCon ingot pulling yields, and why module assembly margins compress when polysilicon swings.</div>
+            </div>
+            <div class="archive-cell">
+              <span class="tag-chip">DEEP_TECH_R&amp;D</span>
+              <div class="slides-meta">14 SLIDES • PLANNED</div>
+            </div>
+            <div class="archive-cell">
+              <span class="status-badge">SCHEDULED</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Distribution Banner -->
+      <section class="dist-banner">
+        <div class="dist-banner-top">MULTI-CHANNEL INTELLIGENCE DISTRIBUTION</div>
+        <div class="dist-banner-body">
+          <div>
+            <div class="dist-banner-title">Share The Convex Brief Across Your Network</div>
+            <div class="dist-banner-sub">
+              One-click distribution hooks formatted for LinkedIn, X, Facebook, and WhatsApp communities.
+            </div>
+          </div>
+          <button class="btn-primary" onclick="openShareModal('linkedin')">Open Share Hub ↗</button>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- VIEW 2: ISSUE #01 INTERACTIVE POST PAGE -->
+  <section id="view-issue01" class="view-section">
+    <div class="issue-subbar">
+      <div class="subbar-left">
+        <button class="back-btn" onclick="navigateTo('home')">← Back to Ledger</button>
+        <span class="ref-code">REF: ISSUE_01 // EV_VALUE_CHAIN</span>
+      </div>
+      <div class="layout-switcher" role="group" aria-label="Desktop Layout Mode">
+        <button class="layout-btn active" id="modeSplit" onclick="setLayoutMode('split', true)">Split View</button>
+        <button class="layout-btn" id="modeCarousel" onclick="setLayoutMode('carousel', true)">Carousel Focus</button>
+        <button class="layout-btn" id="modeReader" onclick="setLayoutMode('reader', true)">Reader Mode</button>
+      </div>
+    </div>
+
+    <div class="issue-workspace" id="issueWorkspace">
+      <!-- LEFT COLUMN: STICKY 15-SLIDE INTERACTIVE DECK -->
+      <aside class="carousel-column" id="carouselColumn" aria-label="Interactive 15-Slide Deck">
+        <div class="carousel-toolbar" id="carouselToolbar">
+          <button class="toolbar-btn active" id="btnPart1" onclick="setFilter('part1', this)">Part I: Smartphone (8)</button>
+          <button class="toolbar-btn" id="btnPart2" onclick="setFilter('part2', this)">Part II: Gigafactory (7)</button>
+          <button class="toolbar-btn" id="btnAll" onclick="setFilter('all', this)">All 15 Grid</button>
+          <div class="slide-nav" id="singleNav">
+            <button class="toolbar-btn" onclick="changeSlide(-1)">← Prev</button>
+            <span class="slide-counter" id="slideCounter">1 / 8</span>
+            <button class="toolbar-btn" onclick="changeSlide(1)">Next →</button>
+          </div>
+        </div>
+
+        <div class="stage" id="stage">
+          <div class="deck-wrapper" id="deck"></div>
+        </div>
+
+        <div class="swipe-hint">TIP: SWIPE LEFT/RIGHT OR USE ARROW KEYS (← →)</div>
+        <a href="#articleAnchor" class="mobile-jump-bar">↓ Read Full Forensic Deep Dive</a>
+      </aside>
+
+      <!-- RIGHT COLUMN: LONG-FORM FORENSIC DEEP DIVE -->
+      <article class="article-column" id="articleAnchor">
+        <header class="article-header">
+          <div class="meta-row">
+            <span class="badge-coral">ISSUE #01</span>
+            <span class="badge-sky">EV_VALUE_CHAIN</span>
+            <span class="badge-outline">NOV 2026 • 12 MIN READ</span>
+          </div>
+          <h1 class="article-title">
+            Is India Repeating Its Smartphone Mistake with EVs? &amp; The Gigafactory Trap
+          </h1>
+          <p class="article-deck">
+            A forensic audit of India’s electric vehicle Bill of Materials, BYD’s Gen-2 LMFP electro-chemical leap, gigafactory scrap economics, and where domestic capital can actually compound without walking into a 2028 stranded-asset trap.
+          </p>
+        </header>
+
+        <div class="exec-metrics" aria-label="Executive Key Metrics">
+          <div class="exec-cell">
+            <div class="exec-val coral">~40%</div>
+            <div class="exec-lbl">EV BOM in Battery</div>
+          </div>
+          <div class="exec-cell">
+            <div class="exec-val coral">₹1.45L</div>
+            <div class="exec-lbl">60 kWh Cost Deficit</div>
+          </div>
+          <div class="exec-cell">
+            <div class="exec-val sky">20%</div>
+            <div class="exec-lbl">Greenfield Scrap Cliff</div>
+          </div>
+          <div class="exec-cell">
+            <div class="exec-val brass">1.5 MW</div>
+            <div class="exec-lbl">3-Stall 8C Grid Wall</div>
+          </div>
+        </div>
+
+        <div class="article-prose">
+          <div class="part-divider">
+            <span>PART I // THE SMARTPHONE MISTAKE</span>
+            <span>SLIDES 1.1 – 1.8</span>
+          </div>
+
+          <h3>1. The Showroom Illusion Beneath the Sheet Metal</h3>
+          <p>
+            Every major Indian EV launch follows the same press-conference script: panoramic glass roofs, dual-screen infotainment clusters, ADAS Level-2 badges, and proud declarations of “80% localization.” Yet localization measured by <em>part count</em> or <em>curb weight</em> hides a brutal balance-sheet reality. Stampings, seats, tires, glass, and wiring harnesses are low-margin mechanical commodities.
+          </p>
+          <p>
+            When you strip away the cabin and inspect the electro-chemical core under the floorboard, <strong>nearly 100% of India’s automotive-grade lithium-ion cells are still imported from China</strong>. In internal combustion vehicles, Indian OEMs and Tier-1 suppliers spent four decades mastering cast-iron engine blocks, multi-speed transmissions, and precision forgings. In an electric vehicle, that entire powertrain value pool collapses into a single component—the battery pack—which eats roughly <strong>40% of the vehicle’s total Bill of Materials (BOM)</strong>.
+          </p>
+          <div>
+            <button class="sync-chip" onclick="syncSlide('part1', 0)">Sync Slide 1.1: Floorboard X-Ray ↗</button>
+            <button class="sync-chip" onclick="syncSlide('part1', 2)">Sync Slide 1.3: BOM Audit ↗</button>
+          </div>
+
+          <h3>2. The 2014 Smartphone Déjà Vu</h3>
+          <p>
+            We have watched this exact industrial movie play out once before. Between 2012 and 2014, domestic Indian handset brands captured over 40% market share by importing Semi-Knocked Down (SKD) kits from Shenzhen, printing local logos on the casing, and spending aggressively on celebrity marketing. Because they never owned the System-on-Chip (SoC), display panel, or camera sensor supply chain, they held zero structural moat. The moment Chinese OEMs entered India directly with integrated 4G silicon and tighter BOM economics, domestic assemblers lost 90% of their market share inside 36 months.
+          </p>
+          <p>
+            To be fair to Tata Motors, Mahindra, and MG: choosing <strong>Route A (Local Pack Assembly at ₹50–150 Cr CAPEX)</strong> over <strong>Route B (a 5 GWh Cell Foundry at ₹3,500–5,000 Cr CAPEX)</strong> was completely rational in 2021 when EV penetration was below 2%. No prudent CFO burns ₹4,000 Cr on a chemical foundry before proving end-consumer demand. The danger in 2026 is that a rational Phase-1 bridge has turned into a permanent structural crutch—right as Shenzhen rewrote the underlying battery physics.
+          </p>
+
+          <h3>3. China Moves the Goalposts: Gen-2 LMFP &amp; The Voltage Cliff</h3>
+          <p>
+            While Indian pack assemblers perfected integrating Gen-1 LFP cells (140–150 Wh/kg, 35–45 minute fast charging), BYD’s Second-Generation Blade architecture—combining <strong>Lithium Manganese Iron Phosphate (LMFP)</strong> chemistry with <strong>Cell-to-Body (CTB)</strong> structural integration—pushed gravimetric energy density to <strong>190–210 Wh/kg</strong> and cut 10%–80% DC fast-charging times to 8–10 minutes (6C–8C).
+          </p>
+          <p>
+            Crucially, Indian OEMs cannot simply “drop in” Gen-2 LMFP cells into existing battery trays when they become available for export. Doping Manganese into an LFP cathode introduces a <strong>two-step discharge plateau</strong>: a 4.1V Manganese plateau followed by a sharp non-linear drop to the 3.4V Iron plateau. Standard voltage-based Battery Management Systems (BMS) misread this impedance cliff—causing a dashboard reading 25% State of Charge to plunge to 4% mid-overtake on a highway incline. Solving this requires proprietary Kalman-filter algorithms calibrated across thousands of destructive cell-aging cycles.
+          </p>
+          <div>
+            <button class="sync-chip" onclick="syncSlide('part1', 4)">Sync Slide 1.5: Gen-2 LMFP Specs ↗</button>
+            <button class="sync-chip" onclick="syncSlide('part1', 6)">Sync Slide 1.7: LMFP Voltage Cliff ↗</button>
+          </div>
+
+          <h3>4. The ₹1.45 Lakh Per-Car Structural Penalty</h3>
+          <p>
+            Run the landed-cost audit on a standard <strong>60 kWh electric SUV pack</strong>. An Indian automaker importing Gen-1 cells at $58–62/kWh CIF pays roughly ₹3.05 Lakh for the cells, another ₹0.62 Lakh in customs duty, port handling, and sea freight, plus ₹0.68 Lakh in redundant aluminum trays, busbars, and AIS-156 crash frames—landing at <strong>₹4.35 Lakh per pack</strong>.
+          </p>
+          <p>
+            In Shenzhen, a vertically integrated Gen-2 CTB manufacturer uses 30% fewer cells due to higher energy density and eliminates 75 kg of redundant enclosure metal by turning the battery lid into the structural cabin floor, landing at <strong>₹2.80–3.00 Lakh</strong>. Before a single car enters a showroom, the domestic OEM starts at a <strong>₹1.45 Lakh per-vehicle margin deficit</strong>.
+          </p>
+          <div>
+            <button class="sync-chip" onclick="syncSlide('part1', 7)">Sync Slide 1.8: ₹1.45L Penalty ↗</button>
+          </div>
+
+          <div class="part-divider sky">
+            <span>PART II // THE GIGAFACTORY TRAP</span>
+            <span>SLIDES 2.1 – 2.7</span>
+          </div>
+
+          <h3>5. Why Buying Turnkey Machinery Doesn’t Buy Yield</h3>
+          <p>
+            The instinctive policy and boardroom reaction to Part I is straightforward: <em>“Let’s deploy ₹4,000 Cr per 5 GWh, claim the ₹18,100 Cr ACC PLI subsidy, and build domestic cell gigafactories.”</em> This treats battery cell manufacturing like a cement kiln or a steel rolling mill—where buying best-in-class equipment guarantees output.
+          </p>
+          <p>
+            In reality, a lithium-ion gigafactory is an unforgiving, high-speed <strong>precision chemical foundry</strong>. Coating wet cathode slurry onto a 6-micron foil at 90+ meters per minute inside a −45°C to −50°C dew-point dry room leaves zero tolerance for viscosity drift or microscopic pinholes. As Europe’s Northvolt painfully demonstrated, importing Wuxi Lead ovens without resident veteran process engineers leads to <strong>20%–30% cell scrap rates</strong> during ramp-up.
+          </p>
+          <div>
+            <button class="sync-chip sky" onclick="syncSlide('part2', 1)">Sync Slide 2.2: Process Physics ↗</button>
+            <button class="sync-chip sky" onclick="syncSlide('part2', 2)">Sync Slide 2.3: Scrap Death Spiral ↗</button>
+          </div>
+
+          <table class="data-table" aria-label="Gigafactory Yield vs Gross Margin Impact">
+            <thead>
+              <tr>
+                <th>Fab Maturity Stage</th>
+                <th>Salable Yield</th>
+                <th>Effective Cost Inflation</th>
+                <th>Gross Margin Reality</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Greenfield Ramp (Yr 1–2)</strong></td>
+                <td>70% – 78%</td>
+                <td>+22% to +28% $/kWh</td>
+                <td>Deep Cash Burn (PLI Wiped Out)</td>
+              </tr>
+              <tr>
+                <td><strong>Stabilizing Line (Yr 3)</strong></td>
+                <td>88% – 90%</td>
+                <td>+8% to +10% $/kWh</td>
+                <td>Unit Break-Even Only</td>
+              </tr>
+              <tr>
+                <td><strong>Mature Chinese Fab</strong></td>
+                <td>96% – 98%</td>
+                <td>Baseline ($42–48/kWh)</td>
+                <td>Positive Cash Flow &amp; Pricing Power</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>6. Upstream Precursors &amp; The 1.5 MW Highway Grid Wall</h3>
+          <p>
+            Even if a domestic conglomerate conquers shopfloor yield, China controls <strong>&gt;92% of global spherical graphite and Si/C anode processing</strong> and <strong>~100% of 4.5-micron titanium-drum copper foil</strong> and nano-coated LMFP cathode precursors. Building a cell fab without upstream chemical refining merely shifts import vulnerability one link up the chain.
+          </p>
+          <p>
+            Meanwhile, marketing brochures touting “8-minute 8C charging” collide head-on with electrical grid physics. Charging a 60 kWh battery at 8C pulls <strong>480 kW of continuous DC power</strong>. Just three cars plugging in simultaneously at a highway charging plaza demand <strong>1.44 to 1.50 Megawatts</strong>—equivalent to a mid-sized steel rolling mill. Without 800V Silicon-Carbide (SiC) vehicle platforms and co-located stationary Battery Energy Storage Systems (BESS) buffering weak highway feeders, 8-minute charging remains brochure fiction.
+          </p>
+          <div>
+            <button class="sync-chip sky" onclick="syncSlide('part2', 4)">Sync Slide 2.5: 1.5 MW Grid Wall ↗</button>
+          </div>
+
+          <h3>7. The Asymmetric Capital Playbook for India</h3>
+          <p>
+            Any Indian conglomerate signing a ₹4,000 Cr purchase order today for a Gen-1 LFP turnkey line faces a brutal depreciation clock: by the time the plant grinds from 72% to 90% yield in 2028, global benchmarks will have shifted to 210 Wh/kg LMFP and $40/kWh Sodium-Ion cells—leaving the domestic fab stranded before its equipment is even half-depreciated.
+          </p>
+
+          <div class="editorial-box">
+            <div class="editorial-box-head">CAPITAL ALLOCATION VERDICT // 4 CHEMISTRY-AGNOSTIC MOATS</div>
+            <div class="editorial-box-body">
+              Instead of fighting a low-ROCE commodity cell war against subsidized Chinese overcapacity, smart Indian industrial capital should compound in four high-margin, chemistry-agnostic layers:<br /><br />
+              <strong>01. 800V SiC Power Electronics:</strong> Localize Silicon-Carbide inverters, DC-DC converters, and onboard chargers mandatory for every future EV regardless of cell chemistry.<br />
+              <strong>02. Kalman-Filter BMS IP:</strong> Build silicon-level multi-chemistry BMS software capable of managing dual-plateau LMFP and Sodium-Ion packs.<br />
+              <strong>03. Thermal Plates &amp; Highway BESS Buffers:</strong> Own refrigerant cooling plates and stationary battery buffers that make high-load highway charging hubs viable.<br />
+              <strong>04. Hydrometallurgical Black-Mass Recycling:</strong> Scale urban mining to recover 95%+ lithium, nickel, and copper from retired Indian EV packs—building a closed-loop domestic mineral reserve.
+            </div>
+          </div>
+
+          <div>
+            <button class="sync-chip sky" onclick="syncSlide('part2', 6)">Sync Slide 2.7: Capital Playbook ↗</button>
+          </div>
+
+          <div class="article-footer-cta">
+            <div>
+              <div style="font-family:var(--mono); font-size:10.5px; color:var(--brass); font-weight:700; margin-bottom:4px;">END OF ISSUE #01 // THE CONVEX BRIEF</div>
+              <div style="font-family:var(--serif); font-size:22px; font-weight:600;">Share This Dispatch on LinkedIn, X, Facebook or WhatsApp</div>
+            </div>
+            <button class="btn-primary" onclick="openShareModal('linkedin')">Open Share Hub ↗</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- MULTI-PLATFORM DISTRIBUTION & SHARE MODAL -->
+  <div class="modal-backdrop" id="shareModal" onclick="handleModalBackdrop(event)" role="dialog" aria-modal="true" aria-labelledby="shareModalTitle">
+    <div class="modal-panel">
+      <div class="modal-header">
+        <span id="shareModalTitle">/// MULTI-PLATFORM DISTRIBUTION HUB — ISSUE #01</span>
+        <button class="modal-close" id="modalCloseBtn" onclick="closeShareModal()">✕ Close</button>
+      </div>
+
+      <!-- One-Click Direct Share Intents -->
+      <div class="share-bar">
+        <a class="share-direct-btn linkedin" id="directLinkedin" target="_blank" rel="noopener noreferrer">Share on LinkedIn ↗</a>
+        <a class="share-direct-btn x" id="directX" target="_blank" rel="noopener noreferrer">Post on X ↗</a>
+        <a class="share-direct-btn facebook" id="directFacebook" target="_blank" rel="noopener noreferrer">Share on Facebook ↗</a>
+        <a class="share-direct-btn whatsapp" id="directWhatsapp" target="_blank" rel="noopener noreferrer">Send via WhatsApp ↗</a>
+      </div>
+
+      <!-- Platform Preview & Copy Tabs -->
+      <div class="platform-tabs" role="tablist" aria-label="Select social platform format">
+        <button class="platform-tab active" role="tab" data-platform="linkedin" onclick="selectSharePlatform('linkedin')">LinkedIn</button>
+        <button class="platform-tab" role="tab" data-platform="x" onclick="selectSharePlatform('x')">X (Twitter)</button>
+        <button class="platform-tab" role="tab" data-platform="facebook" onclick="selectSharePlatform('facebook')">Facebook</button>
+        <button class="platform-tab" role="tab" data-platform="whatsapp" onclick="selectSharePlatform('whatsapp')">WhatsApp</button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <div class="modal-col-title" id="previewHeading">01 • LINKEDIN CARD PREVIEW</div>
+          <div class="preview-card">
+            <div class="og-mock">
+              <div class="og-mock-graphic">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; font-family:var(--mono); font-size:9px; color:var(--text-muted);">
+                  <span>THE CONVEX BRIEF</span>
+                  <span style="background:var(--brass); color:#0B0E14; padding:2px 6px; border-radius:3px; font-weight:700;">ISSUE #01 • 15 SLIDES</span>
+                </div>
+                <div style="font-family:var(--serif); font-size:16px; font-weight:600; line-height:1.18; margin-bottom:6px; color:var(--text-primary);">
+                  Is India Repeating Its Smartphone Mistake with EVs?
+                </div>
+                <div style="font-family:var(--mono); font-size:9px; color:var(--sky);">
+                  ₹1.45L BOM PENALTY • LMFP CLIFF • GIGAFACTORY TRAP
+                </div>
+              </div>
+              <div class="og-mock-meta">
+                <div class="og-mock-title">Issue #01: EV Supply Chain &amp; Gigafactory Forensic Audit</div>
+                <div class="og-mock-desc">Swipe the 15-slide interactive deck + read the full written deep dive.</div>
+                <div class="og-mock-domain">theconvexbrief.in/#issue-01</div>
+              </div>
+            </div>
+            <div class="preview-post-text" id="platformPreviewText"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="modal-col-title" id="copyHeading">02 • READY-TO-PASTE LINKEDIN POST</div>
+          <textarea class="copy-textarea" id="shareCopyBox" readonly></textarea>
+          <div class="copy-actions">
+            <button class="copy-btn" id="copyShareBtn" onclick="copyShareText()">Copy Post Text</button>
+            <a class="launch-btn" id="launchActivePlatform" target="_blank" rel="noopener noreferrer">Open Platform ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="C:\Users\Sarvesh.Prasad\OneDrive - Motherson Group\Documents\My Data Sources\webs\app.js"></script>
+</body>
+</html>
